@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<Extern href="stdidcmd.h"/>
+	<Extern href="vsshlids.h"/>
+
+	<Commands package="OpenBinFolderPackageGuid">
+
+		<Buttons>
+			<Button guid="OpenBinFolderPackageGuidCmdSet" id="CmdOpenBinFolder" priority="0x0200" type="Button">
+				<Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_PROJECT_EXPLORE"/>
+				<Icon guid="guidImages" id="bmpPic1" />
+				<CommandFlag>DynamicVisibility</CommandFlag>
+				<Strings>
+					<CommandName>OpenBinFolder</CommandName>
+					<ButtonText>Open current bin folder (Explorer)...</ButtonText>
+				</Strings>
+			</Button>
+		</Buttons>
+
+		<Bitmaps>
+			<Bitmap guid="guidImages" href="Resources\folder.bmp" usedList="bmpPic1"/>
+		</Bitmaps>
+	</Commands>
+
+	<CommandPlacements>
+		<CommandPlacement guid="OpenBinFolderPackageGuidCmdSet" id="CmdOpenBinFolder" priority="0x0200">
+			<!-- The parent of the group will be the project context menu -->
+			<Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_PROJNODE"/>
+		</CommandPlacement>
+	</CommandPlacements>
+
+	<Symbols>
+		<GuidSymbol name="OpenBinFolderPackageGuid" value="{645d738e-fdcc-4a60-826c-421b06cf1d71}" />
+
+		<GuidSymbol name="OpenBinFolderPackageGuidCmdSet" value="{9a55a2b4-3e29-4359-882b-fa5f51c09300}">
+			<IDSymbol name="CmdOpenBinFolder" value="0xACAB" />
+		</GuidSymbol>
+		<GuidSymbol name="guidImages" value="{740507d9-7a30-4059-989e-f0ea6ab719da}" >
+			<IDSymbol name="bmpPic1" value="1" />
+		</GuidSymbol>
+
+	</Symbols>
+</CommandTable>
