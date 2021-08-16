@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="OpenBinFolderVs2022.a1f32db4-f5dd-42b9-b152-fea52e181282" Version="1.0" Language="en-US" Publisher="varKeytrap" />
         <DisplayName>OpenBinFolderVs2022</DisplayName>
-        <Description xml:space="preserve">Empty VSIX Project.</Description>
+        <Description xml:space="preserve">Visual Studio extension that lets you open the folder containing the current debugged application</Description>
         <Icon>folder-vertical-open-filled-find.ico</Icon>
         <PreviewImage>Capture.PNG</PreviewImage>
         <Tags>open,bin,folder,2022</Tags>
