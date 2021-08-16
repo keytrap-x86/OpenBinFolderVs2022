@@ -57,6 +57,7 @@
     <Compile Include="OpenBinFolderPackage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="readme.md" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
       <Generator>VsixManifestGenerator</Generator>
