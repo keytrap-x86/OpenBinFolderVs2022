@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="OpenBinFolderVs2022.a1f32db4-f5dd-42b9-b152-fea52e181282" Version="1.1" Language="en-US" Publisher="Keytrap" />
+        <Identity Id="OpenBinFolderVs2022.a1f32db4-f5dd-42b9-b152-fea52e181282" Version="1.2" Language="en-US" Publisher="Keytrap" />
         <DisplayName>OpenBinFolder</DisplayName>
-        <Description xml:space="preserve">Visual Studio (updated for VS 2022 support) extension that lets you open the folder containing the current debugged application</Description>
+        <Description xml:space="preserve">Visual Studio (for v2022 support) extension that lets you open the folder containing the current debugged application</Description>
         <MoreInfo>https://github.com/varKeytrap/OpenBinFolderVs2022</MoreInfo>
         <License>license.txt</License>
         <Icon>folder-vertical-open-filled-find@96px.png</Icon>
